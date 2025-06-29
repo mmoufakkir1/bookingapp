@@ -1,0 +1,446 @@
+.airportTaxiItem {
+  background: white;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.airportTaxiItem:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-color: #0071c2;
+}
+
+.taxiHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.companyInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companyLogo {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.companyDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.companyName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.companyCode {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.taxiRating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.taxiRating span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.ratingButton {
+  background-color: #007c2e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 30px;
+}
+
+.vehicleSection {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.vehicleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vehicleModel {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.vehicleType {
+  font-size: 14px;
+  color: #0071c2;
+  font-weight: 500;
+  background-color: #e3f2fd;
+  padding: 4px 8px;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.vehicleSpecs {
+  display: flex;
+  gap: 20px;
+}
+
+.spec {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #666;
+}
+
+.spec svg {
+  color: #0071c2;
+  font-size: 12px;
+}
+
+.vehicleFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #555;
+  background-color: #f8f9fa;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.feature svg {
+  color: #0071c2;
+  font-size: 10px;
+}
+
+.locationSection {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.locationInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.locationHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.locationHeader svg {
+  color: #0071c2;
+}
+
+.locationDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.airport {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.terminal {
+  font-size: 14px;
+  color: #666;
+}
+
+.pickupPoint {
+  font-size: 14px;
+  color: #666;
+}
+
+.waitTime {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #666;
+}
+
+.waitTime svg {
+  color: #0071c2;
+}
+
+.destinationsSection {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.destinationsSection h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.destinationsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.destinationItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.destinationName {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.destinationPrice {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0071c2;
+}
+
+.featuresSection {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.featuresList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.featureItem svg {
+  color: #0071c2;
+  font-size: 12px;
+}
+
+.includedSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.includedList h4, .notIncludedList h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.includedItems, .notIncludedItems {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.includedItem, .notIncludedItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.includedItem svg {
+  color: #008009;
+  font-size: 12px;
+}
+
+.notIncludedItem svg {
+  color: #666;
+  font-size: 12px;
+}
+
+.policiesSection {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.policyItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #008009;
+}
+
+.policyItem svg {
+  font-size: 12px;
+}
+
+.taxiPricing {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.priceRange {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.priceLabel {
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+.priceValue {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.originalPrice {
+  font-size: 12px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+.currentPrice {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.discountBadge {
+  background-color: #cc0000;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.priceDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.selectTaxiBtn {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.selectTaxiBtn:hover {
+  background-color: #005a9e;
+}
+
+@media (max-width: 768px) {
+  .airportTaxiItem {
+    padding: 15px;
+  }
+  
+  .taxiHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .vehicleSpecs {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .destinationsList {
+    grid-template-columns: 1fr;
+  }
+  
+  .includedSection {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .policiesSection {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .priceContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .priceDetails {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+} 
