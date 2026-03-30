@@ -65,7 +65,7 @@ export const carRentals = [
     rating: 4.2,
     reviews: 1247,
     available: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hertz_logo.svg/1200px-Hertz_logo.svg.png"
+    logo: "Hertz"
   },
   {
     id: 2,
@@ -87,7 +87,7 @@ export const carRentals = [
       doors: 5,
       ac: true,
       mileage: "Unlimited",
-      image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1000&h=600&fit=crop"
     },
     price: {
       daily: 65,
@@ -106,7 +106,7 @@ export const carRentals = [
     rating: 4.4,
     reviews: 2156,
     available: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Enterprise_Rent-A-Car_logo.svg/1200px-Enterprise_Rent-A-Car_logo.svg.png"
+    logo: "Enterprise"
   },
   {
     id: 3,
@@ -128,7 +128,7 @@ export const carRentals = [
       doors: 4,
       ac: true,
       mileage: "Unlimited",
-      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1000&h=600&fit=crop"
     },
     price: {
       daily: 95,
@@ -147,7 +147,7 @@ export const carRentals = [
     rating: 4.6,
     reviews: 892,
     available: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Avis_logo.svg/1200px-Avis_logo.svg.png"
+    logo: "Avis"
   },
   {
     id: 4,
@@ -169,7 +169,7 @@ export const carRentals = [
       doors: 5,
       ac: true,
       mileage: "Unlimited",
-      image: "https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1549924231-f129b911e442?w=1000&h=600&fit=crop"
     },
     price: {
       daily: 35,
@@ -188,7 +188,7 @@ export const carRentals = [
     rating: 4.1,
     reviews: 1567,
     available: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Budget_Rent_a_Car_logo.svg/1200px-Budget_Rent_a_Car_logo.svg.png"
+    logo: "Budget"
   },
   {
     id: 5,
@@ -210,7 +210,7 @@ export const carRentals = [
       doors: 4,
       ac: true,
       mileage: "Unlimited",
-      image: "https://images.unsplash.com/photo-1536700503339-1e4b06520771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1536700503339-1e4b06520771?w=1000&h=600&fit=crop"
     },
     price: {
       daily: 85,
@@ -229,7 +229,7 @@ export const carRentals = [
     rating: 4.5,
     reviews: 743,
     available: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sixt_logo.svg/1200px-Sixt_logo.svg.png"
+    logo: "Sixt"
   },
   {
     id: 6,
@@ -251,7 +251,7 @@ export const carRentals = [
       doors: 5,
       ac: true,
       mileage: "Unlimited",
-      image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1566008885218-90abf9200ddb?w=1000&h=600&fit=crop"
     },
     price: {
       daily: 75,
@@ -270,7 +270,7 @@ export const carRentals = [
     rating: 4.3,
     reviews: 1123,
     available: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Europcar_logo.svg/1200px-Europcar_logo.svg.png"
+    logo: "Europcar"
   }
 ];
 

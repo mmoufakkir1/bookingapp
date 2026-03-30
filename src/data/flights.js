@@ -51,7 +51,8 @@ export const flights = [
     amenities: ["WiFi", "Entertainment", "Meal", "USB Charging"],
     cancellation: "Free cancellation until 24h before departure",
     refundable: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Delta_logo.svg/1200px-Delta_logo.svg.png"
+    logo: "Delta",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=300&fit=crop"
   },
   {
     id: 2,
@@ -81,7 +82,8 @@ export const flights = [
     amenities: ["WiFi", "Entertainment", "Meal", "USB Charging", "Power Outlet"],
     cancellation: "Free cancellation until 48h before departure",
     refundable: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/American_Airlines_logo_2013.svg/1200px-American_Airlines_logo_2013.svg.png"
+    logo: "American",
+    image: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=400&h=300&fit=crop"
   },
   {
     id: 3,
@@ -111,7 +113,8 @@ export const flights = [
     amenities: ["WiFi", "Entertainment", "Snack"],
     cancellation: "Free cancellation until 2h before departure",
     refundable: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/British_Airways_Logo.svg/1200px-British_Airways_Logo.svg.png"
+    logo: "British Airways",
+    image: "https://images.unsplash.com/photo-1506012787146-92ac18addd60?w=400&h=300&fit=crop"
   },
   {
     id: 4,
@@ -141,7 +144,8 @@ export const flights = [
     amenities: ["WiFi", "Entertainment", "Meal"],
     cancellation: "Free cancellation until 24h before departure",
     refundable: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Lufthansa_Logo_2018.svg/1200px-Lufthansa_Logo_2018.svg.png"
+    logo: "Lufthansa",
+    image: "https://images.unsplash.com/photo-1474302770737-173ee21bab63?w=400&h=300&fit=crop"
   },
   {
     id: 5,
@@ -171,7 +175,8 @@ export const flights = [
     amenities: ["WiFi", "Entertainment", "Meal", "USB Charging", "Power Outlet", "Shower"],
     cancellation: "Free cancellation until 72h before departure",
     refundable: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Emirates_logo.svg/1200px-Emirates_logo.svg.png"
+    logo: "Emirates",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400&h=300&fit=crop"
   },
   {
     id: 6,
@@ -201,7 +206,8 @@ export const flights = [
     amenities: ["WiFi", "Entertainment", "Snack"],
     cancellation: "Free cancellation until 24h before departure",
     refundable: true,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/United_Airlines_Logo.svg/1200px-United_Airlines_Logo.svg.png"
+    logo: "United",
+    image: "https://images.unsplash.com/photo-1520437358207-323b43b50729?w=400&h=300&fit=crop"
   }
 ];
 
